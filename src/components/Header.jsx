@@ -2,8 +2,8 @@ import React from 'react';
 
 export default function Header() {
     return (
-        <div className='bg-[#0a192f] flex flex-col gap-1'>
-           <nav className='flex justify-between items-center py-5 px-10'>
+        <div className='bg-[#0a192f] flex flex-col gap-[10px] h-[100vh]'>
+           <nav className='flex justify-between items-center py-5 px-[65px] text-[17px] bg-[#071726]'>
             <div className='text-gray-300'>Logo:</div>
             <div className='flex gap-5 text-gray-300'>
                 <a href="#">About</a>
@@ -11,8 +11,13 @@ export default function Header() {
                 <a href="#">Contact</a>
             </div>
            </nav>
-           <main className='w-[550px] bg-red-100 m-auto'>
-            <p>salam</p>
+           <main className='w-[65%] m-auto mt-[55px]'>
+            <p className='text-[#64ffda] text-[20px]'>Hi, My name is </p>
+            <p className='text-[#8892b0] text-[56px] font-bold'>Rahul Qurbanov</p>
+            <p className='text-[#495670] text-[66px] font-bold'>I'm a Front-End Developer.!</p>
+            <p className='w-[820px] text-[#ccd6f6] text-[19px] pl-1 mt-[35px]'>I am a detail-oriented Front-End Developer based in Azerbaijan.
+               I specialize in building responsive and user-friendly web applications using modern technologies like React, Tailwind CSS, and JavaScript.
+               I am passionate about writing clean, efficient code and continuously improving both my design and development skills.</p>
            </main>
         </div>
     );
