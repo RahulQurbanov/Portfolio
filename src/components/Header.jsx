@@ -19,7 +19,7 @@ export default function Header() {
                I specialize in building responsive and user-friendly web applications using modern technologies like React, Tailwind CSS, and JavaScript.
                I am passionate about writing clean, efficient code and continuously improving both my design and development skills.</p>
                <div className='hover:skew-2 mb-[30px]'>
-               <a href='#' className='py-3 px-5 text-[#64ffda] border-1 bg-[#0a192f] z-10'>Check out my Github !</a>
+               <a href='#' className='py-3 px-5 text-[#64ffda] border-1 bg-[#0a192f] z-10'>Check out myGithub !</a>
                </div>
                <div>
                 <h1 className='text-[#8892b0] text-[18px]'>Here are a few technologies I’ve been working with recently:</h1>
