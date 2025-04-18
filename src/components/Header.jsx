@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Header() {
     return (
-        <div className='bg-[#0a192f] flex flex-col gap-[10px] h-[100vh]'>
+        <div className='bg-[#0a192f] flex flex-col gap-[10px] '>
            <nav className='flex justify-between items-center py-5 px-[45px] text-[17px] bg-[#071726]'>
             <div className='text-gray-300'>Logo:</div>
             <div className='flex gap-10 text-gray-300'>
@@ -22,7 +22,7 @@ export default function Header() {
                <a href='#' className='py-3 px-5 text-[#64ffda] border-1 bg-[#0a192f] z-10'>Check out my Github !</a>
                </div>
                <div>
-                <h1 className='text-[#8892b0] text-[18px]'>Here are a few technologies I’ve been working with recently:</h1>
+                <h1 className='text-[#8892b0] text-[18px] mb-[25px]'>Here are a few technologies I’ve been working with recently:</h1>
                 <div className="mt-2 flex gap-10">
                 <div className="flex flex-col gap-7">
                   <img src="./src/assets/img/js.png" className="w-[35px] h-[35px]" />
