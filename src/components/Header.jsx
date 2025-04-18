@@ -11,7 +11,7 @@ export default function Header() {
                 <a href="#" className='hover:text-[#64ffda]'>Contact</a>
             </div>
            </nav>
-           <main className='w-[65%] m-auto mt-[40px]'>
+           <main className='w-[75%] m-auto mt-[40px]'>
             <p className='text-[#64ffda] text-[20px]'>Hi, My name is </p>
             <p className='text-[#8892b0] text-[56px] font-bold'>Rahul Qurbanov</p>
             <p className='text-[#495670] text-[66px] font-bold'>I'm a Front-End Developer.!</p>
