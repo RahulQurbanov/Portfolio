@@ -41,6 +41,26 @@ export default function Projects() {
             <a href="https://github.com/RahulQurbanov/Project-KoolCoders"><img src="src/assets/img/KoolCoders.png" className='h-[95%] opacity-20 hover:opacity-65 cursor-pointer transition-all translate-0.5 ease-in-out'/></a>
             </div>
         </div>
+        <div className='flex flex-row gap-[20px] justify-around mb-[125px]'>
+            <div className='w-[50%]'>
+            <a href="https://rahulqurbanov.github.io/Todo-List-/"><img src="src/assets/img/todolist.png" className='h-[90%] w-[95%] opacity-20 hover:opacity-65 cursor-pointer transition-all translate-0.5 ease-in-out'/></a>
+            </div>
+            <div className='w-[45%] flex flex-col gap-[15px]'>
+               <h2 className='text-[#ccd6f6] text-[30px] font-bold'>TodoList App</h2>
+               <div className='w-[500px] bg-[#112240] text-gray-300 rounded-lg py-2 px-5'>This project is a simple and user-friendly To-Do List built with HTML, CSS, and JavaScript.
+                It allows users to add, delete, and manage daily tasks easily. The list updates dynamically, and tasks can be marked as complete or removed. Clean design and smooth interactions make it practical for daily use.</div>
+            <div className='flex gap-5'>
+            <img src="./src/assets/img/html.webp" className="w-[35px] h-[35px]" />
+                  <img src="./src/assets/img/css.svg" className="w-[35px] h-[35px]" />
+                  <img src="./src/assets/img/js.png" className="w-[35px] h-[35px]" />
+            </div>
+            <div className='flex gap-2 items-end justify-end'>
+           <a href="https://github.com/RahulQurbanov/Todo-List-"><img src="./src/assets/img/github1.svg" className="w-[50px] h-[50px] cursor-pointer  opacity-45 hover:opacity-100" /></a>
+            <a href="https://rahulqurbanov.github.io/Todo-List-/"><img src="./src/assets/img/live.svg" className="w-[40px] h-[40px] cursor-pointer opacity-45 hover:opacity-100" /></a>
+            </div>
+            </div>
         </div>
+        </div>
+        
     </div>
 }
