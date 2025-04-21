@@ -69,6 +69,8 @@ export default function Projects() {
                   <img src="./src/assets/img/html.webp" className="w-[35px] h-[35px]" />
                   <img src="./src/assets/img/js.png" className="w-[35px] h-[35px]" />
                   <img src="./src/assets/img/react.svg" className="w-[35px] h-[35px]" />
+                  <img src="./src/assets/img/vite.svg" className="w-[35px] h-[35px]" />
+
                   <img src="./src/assets/img/tailwind.svg" className="w-[35px] h-[35px]" />
             </div>
             <div className='flex gap-2 items-end justify-end'>
@@ -92,6 +94,7 @@ Users can input their desired investment amount, interest rate, and the number o
                   <img src="./src/assets/img/html.webp" className="w-[35px] h-[35px]" />
                   <img src="./src/assets/img/js.png" className="w-[35px] h-[35px]" />
                   <img src="./src/assets/img/react.svg" className="w-[35px] h-[35px]" />
+                  <img src="./src/assets/img/vite.svg" className="w-[35px] h-[35px]" />
                   <img src="./src/assets/img/tailwind.svg" className="w-[35px] h-[35px]" />
                   <img src="./src/assets/img/api.svg" className="w-[35px] h-[35px]" />
             </div>
