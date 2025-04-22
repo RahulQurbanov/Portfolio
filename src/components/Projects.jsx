@@ -121,8 +121,8 @@ Users can input their desired investment amount, interest rate, and the number o
             <a href="https://rahulqurbanov.github.io/Weather-prognoz/"><img src="./src/assets/img/live.svg" className="w-[40px] h-[40px] cursor-pointer opacity-45 hover:opacity-100" /></a>
             </div>
             </div>
-            <div className='w-[50%]'>
-            <a href="https://github.com/RahulQurbanov/Weather-prognoz"><img src="src/assets/img/Weather.png" className='h-full opacity-20 hover:opacity-65 cursor-pointer transition-all translate-0.5 ease-in-out'/></a>
+            <div className='w-[50%] flex justify-end'>
+            <a href="https://github.com/RahulQurbanov/Weather-prognoz"><img src="src/assets/img/Weather.png" className='h-[97%] w-[485px] rounded-lg opacity-20 hover:opacity-65 cursor-pointer transition-all translate-0.5 ease-in-out'/></a>
             </div>
         </div>
         </div>
