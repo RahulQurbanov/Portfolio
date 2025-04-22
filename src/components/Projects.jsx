@@ -85,12 +85,12 @@ Users can input their desired investment amount, interest rate, and the number o
             </div>
             </div>
             <div className='w-[50%] flex justify-end'>
-            <a href="https://rahulqurbanov.github.io/Todo-List-/"><img src="src/assets/img/todo-react.png" className='h-[85%] mt-[25px] w-[475px] rounded-lg opacity-20 hover:opacity-65 cursor-pointer transition-all translate-0.5 ease-in-out'/></a>
+            <a href="https://rahulqurbanov.github.io/Todo-List-/"><img src="src/assets/img/todo-react.png" className='h-[85%] mt-[25px] w-[465px] rounded-lg opacity-20 hover:opacity-65 cursor-pointer transition-all translate-0.5 ease-in-out'/></a>
             </div>
         </div>
         <div className='flex flex-row gap-[20px] justify-around mb-[125px]'>
         <div className='w-[50%]'>
-            <a href="https://github.com/RahulQurbanov/Project-KoolCoders"><img src="src/assets/img/KoolCoders.png" className='h-[95%] opacity-20 hover:opacity-65 cursor-pointer transition-all translate-0.5 ease-in-out'/></a>
+            <a href="https://github.com/RahulQurbanov/Project-KoolCoders"><img src="src/assets/img/KoolCoders.png" className='h-[95%] w-[475px] rounded-lg opacity-20 hover:opacity-65 cursor-pointer transition-all translate-0.5 ease-in-out'/></a>
             </div>
             <div className='w-[45%] flex flex-col gap-[15px]'>
                <h2 className='text-[#ccd6f6] text-[30px] font-bold'>KoolCoders Projects</h2>
