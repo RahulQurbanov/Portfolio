@@ -84,8 +84,8 @@ Users can input their desired investment amount, interest rate, and the number o
             <a href="https://rahulqurbanov.github.io/Todo-List-/"><img src="./src/assets/img/live.svg" className="w-[40px] h-[40px] cursor-pointer opacity-45 hover:opacity-100" /></a>
             </div>
             </div>
-            <div className='w-[50%]'>
-            <a href="https://rahulqurbanov.github.io/Todo-List-/"><img src="src/assets/img/todo-react.png" className='h-[80%] w-[90%] opacity-20 hover:opacity-65 cursor-pointer transition-all translate-0.5 ease-in-out'/></a>
+            <div className='w-[50%] flex justify-end'>
+            <a href="https://rahulqurbanov.github.io/Todo-List-/"><img src="src/assets/img/todo-react.png" className='h-[85%] mt-[25px] w-[475px] rounded-lg opacity-20 hover:opacity-65 cursor-pointer transition-all translate-0.5 ease-in-out'/></a>
             </div>
         </div>
         <div className='flex flex-row gap-[20px] justify-around mb-[125px]'>
