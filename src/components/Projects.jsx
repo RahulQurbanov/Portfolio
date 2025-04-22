@@ -113,8 +113,9 @@ Users can input their desired investment amount, interest rate, and the number o
                 It allows users to add, delete, and manage daily tasks easily. The list updates dynamically, and tasks can be marked as complete or removed. Clean design and smooth interactions make it practical for daily use.</div>
             <div className='flex gap-5'>
             <img src="./src/assets/img/html.webp" className="w-[35px] h-[35px]" />
-                  <img src="./src/assets/img/css.svg" className="w-[35px] h-[35px]" />
                   <img src="./src/assets/img/js.png" className="w-[35px] h-[35px]" />
+                  <img src="./src/assets/img/react.svg" className="w-[35px] h-[35px]" />
+                  <img src="./src/assets/img/vite.svg" className="w-[35px] h-[35px]" />
             </div>
             <div className='flex gap-2 items-end justify-end'>
            <a href="https://github.com/RahulQurbanov/Todo-List-"><img src="./src/assets/img/github1.svg" className="w-[50px] h-[50px] cursor-pointer  opacity-45 hover:opacity-100" /></a>
@@ -122,7 +123,7 @@ Users can input their desired investment amount, interest rate, and the number o
             </div>
             </div>
             <div className='w-[50%]'>
-            <a href="https://rahulqurbanov.github.io/Todo-List-/"><img src="src/assets/img/todolist.png" className='h-[90%] w-[95%] opacity-20 hover:opacity-65 cursor-pointer transition-all translate-0.5 ease-in-out'/></a>
+            <a href="https://rahulqurbanov.github.io/Todo-List-/"><img src="src/assets/img/todo-react.png" className='h-[80%] w-[90%] opacity-20 hover:opacity-65 cursor-pointer transition-all translate-0.5 ease-in-out'/></a>
             </div>
         </div>
         </div>
