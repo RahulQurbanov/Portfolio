@@ -6,7 +6,7 @@ export default function Projects() {
         <h1 className='text-[29px] font-bold w-[76%] m-auto text-white py-[45px]'>You can check out all my projects on my <a href="https://github.com/RahulQurbanov">GitHub</a> Profile</h1>
         <div className='flex flex-row gap-[20px] justify-around mb-[125px'>
             <div className='w-[50%]'>
-            <a href="https://github.com/RahulQurbanov/Investment-Calculator"><img src="src/assets/img/investment.png" className='h-[75%] w-[465px] rounded-xl opacity-20 hover:opacity-65 cursor-pointer transition-all translate-0.5 ease-in-out'/></a>
+            <a href="https://github.com/RahulQurbanov/Investment-Calculator"><img src="src/assets/img/investment.png" className='h-[75%] w-[475px] rounded-xl opacity-20 hover:opacity-65 cursor-pointer transition-all translate-0.5 ease-in-out'/></a>
             </div>
             <div className='w-[50%] flex flex-col gap-[15px]'>
                <h2 className='text-[#ccd6f6] text-[30px] font-bold'>Investment Calculator</h2>
@@ -45,7 +45,7 @@ Users can input their desired investment amount, interest rate, and the number o
             </div>
             </div>
             <div className='w-[50%] flex justify-end'>
-            <a href="https://github.com/RahulQurbanov/Investment-Calculator"><img src="src/assets/img/investment.png" className='h-[75%] w-[465px] rounded-xl opacity-20 hover:opacity-65 cursor-pointer transition-all translate-0.5 ease-in-out'/></a>
+            <a href="https://github.com/RahulQurbanov/Investment-Calculator"><img src="src/assets/img/investment.png" className='h-[75%] w-[475px] rounded-xl opacity-20 hover:opacity-65 cursor-pointer transition-all translate-0.5 ease-in-out'/></a>
             </div>
         </div>
         <div className='flex flex-row gap-[20px] justify-around mb-[125px]'>
