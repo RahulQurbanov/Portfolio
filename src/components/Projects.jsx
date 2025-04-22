@@ -50,7 +50,7 @@ Users can input their desired investment amount, interest rate, and the number o
         </div>
         <div className='flex flex-row gap-[20px] justify-around mb-[125px]'>
         <div className='w-[50%]'>
-            <a href="https://github.com/RahulQurbanov/Quiz-App"><img src="src/assets/img/quizapp.png" className='h-[95%] opacity-20 hover:opacity-65 cursor-pointer transition-all translate-0.5 ease-in-out'/></a>
+            <a href="https://github.com/RahulQurbanov/Quiz-App"><img src="src/assets/img/quizapp.png" className='h-[95%] w-[480px] rounded-lg opacity-20 hover:opacity-65 cursor-pointer transition-all translate-0.5 ease-in-out'/></a>
             </div>
             <div className='w-[45%] flex flex-col gap-[15px]'>
                <h2 className='text-[#ccd6f6] text-[30px] font-bold'>Quiz App</h2>
