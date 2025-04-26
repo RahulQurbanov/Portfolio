@@ -7,7 +7,7 @@ export default function Header() {
             <div className='text-gray-300'>Logo:</div>
             <div className='flex gap-10 text-gray-300'>
                 <a href="#" className='hover:text-[#64ffda]'>About:</a>
-                <a href="#" className='hover:text-[#64ffda]'>Project</a>
+                <a href="#" className='hover:text-[#64ffda]'>Project:</a>
                 <a href="#" className='hover:text-[#64ffda]'>Contact</a>
             </div>
            </nav>
