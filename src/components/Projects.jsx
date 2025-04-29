@@ -6,8 +6,8 @@ import React from 'react';
 export default function Projects() {
     return <div className='bg-[#0a192f]'>
         <div className='w-[75%] m-auto'>
-        <h1 className='text-[29px] font-bold w-[76%] m-auto text-white py-[45px]'>You can check out all my projects on my <a href="https://github.com/RahulQurbanov" className='underline'>GitHub</a> Profile.</h1>
-        <div className='flex flex-row gap-[20px] justify-around mb-[125px]'>
+        <h1 className='text-[29px] font-bold w-[76%] m-auto text-white py-[45px]'> You can check out all my projects on my <a href="https://github.com/RahulQurbanov" className='underline'>GitHub</a> Profile.</h1>
+        <div className='flex flex-row gap-[20px] justify-around mb-[125px'>
             <div className='w-[50%]'>
             <a href="https://github.com/RahulQurbanov/Investment-Calculator"><img src="src/assets/img/investment.png" className='h-[75%] w-[475px] rounded-xl opacity-20 hover:opacity-65 cursor-pointer transition-all translate-0.5 ease-in-out'/></a>
             </div>
