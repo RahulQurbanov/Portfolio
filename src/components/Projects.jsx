@@ -1,4 +1,5 @@
 import React from 'react';
+import 'animate.css';
 export default function Projects() {
     return <div className='bg-[#0a192f]'>
         <div className='w-[75%] m-auto'>

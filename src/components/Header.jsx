@@ -34,28 +34,29 @@ export default function Header() {
                     <h1 className='text-[#8892b0] text-[18px] mb-[25px] animate__animated animate__fadeInDown animate__delay-6s'>
                         Here are a few technologies I’ve been working with recently:
                     </h1>
-                    <div className="mt-2 flex gap-10 animate__animated animate__fadeIn animate__delay-7s">
-                        <div className="flex flex-col gap-7">
-                            <img src="./src/assets/img/js.png" className="w-[35px] h-[35px]" />
-                            <img src="./src/assets/img/html.webp" className="w-[35px] h-[35px]" />
-                        </div>
-                        <div className="flex flex-col gap-7">
-                            <img src="./src/assets/img/css.svg" className="w-[35px] h-[35px]" />
-                            <img src="./src/assets/img/git.svg" className="w-[35px] h-[35px]" />
-                        </div>
-                        <div className="flex flex-col gap-7">
-                            <img src="./src/assets/img/github.svg" className="w-[35px] h-[35px]" />
-                            <img src="./src/assets/img/sass.png" className="w-[35px] h-[35px]" />
-                        </div>
-                        <div className="flex flex-col gap-7">
-                            <img src="./src/assets/img/react.svg" className="w-[35px] h-[35px]" />
-                            <img src="./src/assets/img/figma.png" className="w-[22px] h-[35px] ml-2" />
-                        </div>
-                        <div className="flex flex-col gap-7">
-                            <img src="./src/assets/img/node.svg" className="w-[35px] h-[35px]" />
-                            <img src="./src/assets/img/tailwind.svg" className="w-[40px] h-[45px]" />
-                        </div>
-                    </div>
+                    <div className="mt-2 flex gap-10">
+                  <div className="flex flex-col gap-7">
+                    <img src="./src/assets/img/js.png" className="w-[35px] h-[35px] animate__animated animate__rotateIn animate__delay-1s" />
+                    <img src="./src/assets/img/html.webp" className="w-[35px] h-[35px] animate__animated animate__rotateIn animate__delay-2s" />
+                  </div>
+                  <div className="flex flex-col gap-7">
+                    <img src="./src/assets/img/css.svg" className="w-[35px] h-[35px] animate__animated animate__rotateIn animate__delay-3s" />
+                    <img src="./src/assets/img/git.svg" className="w-[35px] h-[35px] animate__animated animate__rotateIn animate__delay-4s" />
+                  </div>
+                  <div className="flex flex-col gap-7">
+                    <img src="./src/assets/img/github.svg" className="w-[35px] h-[35px] animate__animated animate__rotateIn animate__delay-5s" />
+                    <img src="./src/assets/img/sass.png" className="w-[35px] h-[35px] animate__animated animate__rotateIn animate__delay-6s" />
+                  </div>
+                  <div className="flex flex-col gap-7">
+                    <img src="./src/assets/img/react.svg" className="w-[35px] h-[35px] animate__animated animate__rotateIn animate__delay-7s" />
+                    <img src="./src/assets/img/figma.png" className="w-[22px] h-[35px] ml-2 animate__animated animate__rotateIn animate__delay-8s" />
+                  </div>
+                  <div className="flex flex-col gap-7">
+                    <img src="./src/assets/img/node.svg" className="w-[35px] h-[35px] animate__animated animate__rotateIn animate__delay-9s" />
+                    <img src="./src/assets/img/tailwind.svg" className="w-[40px] h-[45px] animate__animated animate__rotateIn animate__delay-[10s]" />
+                  </div>
+                     </div>
+
                 </div>
             </main>
         </div>
