@@ -14,9 +14,7 @@ export default function Projects() {
         <h1 className='text-[29px] font-bold w-[76%] m-auto text-white py-[45px]'>
           You can check out all my projects on my{' '}
           <a
-  href="https://github.com/RahulQurbanov"
-  rel="noopener noreferrer"
-  className="bg-gradient-to-r font-bold from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent  underline hover:brightness-125 animate-pulse"
+  href="https://github.com/RahulQurbanov" className="bg-gradient-to-r font-bold from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent  underline hover:brightness-125 animate-pulse"
 >
   GitHub 
 </a> Profile.
