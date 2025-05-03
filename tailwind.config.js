@@ -5,14 +5,16 @@ module.exports = {
     ],
     theme: {
       extend: {
-        animationDelay: {
-          '6s': '6s', 
-          '7s': '7s',
-          '8s': '8s',
-          '9s': '9s',
-          '10s': '10s',
+        keyframes: {
+          flash: {
+            '0%, 100%': { opacity: '1' },
+            '50%': { opacity: '0.3' },
+          },
         },
-      },
+        animation: {
+          flash: 'flash 1.5s ease-in-out infinite',
+        },
+      }      
     },
     plugins: [],
   }

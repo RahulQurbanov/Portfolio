@@ -19,7 +19,7 @@ export default function Projects() {
           Profile.
         </h1>
         
-        <div className='flex flex-row gap-[20px] justify-around mb-[95px]' ref={projectRef}>
+        <div className='flex flex-row gap-[20px] justify-around mb-[95px' ref={projectRef}>
           <div className={`w-[50%] ${inView ? 'animate__animated animate__zoomIn' : ''}`}>
             <a href="https://github.com/RahulQurbanov/Investment-Calculator">
               <img src="src/assets/img/investment.png" className='h-[75%] w-[475px] rounded-xl opacity-20 hover:opacity-65 cursor-pointer transition-all translate-0.5 ease-in-out' />
@@ -46,7 +46,7 @@ export default function Projects() {
             </div>
           </div>
         </div>
-        <div className='flex flex-row gap-[20px] justify-between mb-[95px]' ref={projectRef}>
+        <div className='flex flex-row gap-[20px] justify-between mb-[95px' ref={projectRef}>
             <div className={`w-[50%] flex flex-col gap-[15px]  ${inView ? 'animate__animated animate__zoomIn' : ''}`}>
                <h2 className='text-[#ccd6f6] text-[30px] font-bold'>Investment Calculator</h2>
                <div className='w-[500x] bg-[#112240] text-gray-300 rounded-lg py-2 px-5'>This project is an interactive Investment Calculator built with React and styled using Tailwind CSS.
@@ -68,7 +68,7 @@ Users can input their desired investment amount, interest rate, and the number o
             <a href="https://github.com/RahulQurbanov/Investment-Calculator"><img src="src/assets/img/investment.png" className='h-[75%] w-[475px] rounded-xl opacity-20 hover:opacity-65 cursor-pointer transition-all translate-0.5 ease-in-out'/></a>
             </div>
         </div>
-        <div className='flex flex-row gap-[20px] justify-around mb-[95px]' ref={projectRef}>
+        <div className='flex flex-row gap-[20px] justify-around mb-[45px]' ref={projectRef}>
         <div className={`w-[50%] ${inView ? 'animate__animated animate__zoomIn' : ''}`}>
             <a href="https://github.com/RahulQurbanov/Quiz-App"><img src="src/assets/img/quizapp.png" className='h-[95%] w-[480px] rounded-lg opacity-20 hover:opacity-65 cursor-pointer transition-all translate-0.5 ease-in-out'/></a>
             </div>
@@ -108,7 +108,7 @@ Users can input their desired investment amount, interest rate, and the number o
             <a href="https://rahulqurbanov.github.io/Todo-List-/"><img src="src/assets/img/todo-react.png" className='h-[85%] mt-[15px] w-[465px] rounded-lg opacity-20 hover:opacity-65 cursor-pointer transition-all translate-0.5 ease-in-out'/></a>
             </div>
         </div>
-        <div className='flex flex-row gap-[20px] justify-around mb-[95px]' ref={projectRef}>
+        <div className='flex flex-row gap-[20px] justify-around mb-[45px]' ref={projectRef}>
         <div className={`w-[50%] ${inView ? 'animate__animated animate__zoomIn' : ''}`}>
             <a href="https://github.com/RahulQurbanov/Project-KoolCoders"><img src="src/assets/img/KoolCoders.png" className='h-[95%] w-[475px] rounded-lg opacity-20 hover:opacity-65 cursor-pointer transition-all translate-0.5 ease-in-out'/></a>
             </div>
@@ -126,7 +126,7 @@ Users can input their desired investment amount, interest rate, and the number o
             </div>
             </div>
         </div>
-        <div className='flex flex-row gap-[20px] justify-around'>
+        <div className='flex flex-row gap-[20px] justify-around'  ref={projectRef}>
             <div className={`w-[45%] flex flex-col gap-[15px]  ${inView ? 'animate__animated animate__zoomIn' : ''}`}>
                <h2 className='text-[#ccd6f6] text-[30px] font-bold'>Weather Projects</h2>
                <div className='w-[500px] bg-[#112240] text-gray-300 rounded-lg py-2 px-5'>This project was built using HTML, CSS, and JavaScript. It fetches real-time 7-day weather forecasts for any city worldwide using the OpenWeather API. The user can search for a city, and the app displays accurate and up-to-date weather information in a clean and user-friendly design.</div>

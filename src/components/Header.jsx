@@ -16,8 +16,13 @@ export default function Header() {
             <main className='w-[75%] m-auto mt-[40px]'>
                 <p className='text-[#64ffda] text-[20px] animate__animated animate__fadeInLeft animate__delay-1s'>Hi, My name is</p>
                 <p className='text-[#8892b0] text-[56px] font-bold animate__animated animate__fadeInUp animate__delay-2s'>Rahul Qurbanov</p>
-                <p className='text-[#495670] text-[66px] font-bold animate__animated animate__fadeInUp animate__delay-3s'>I'm a Front-End Developer.!</p>
-
+                <p className='text-[#495670] text-[66px] font-bold animate__animated animate__fadeInUp animate__delay-3s'>
+                 I'm a{' '}
+                  <span className="bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent animate-pulse">
+                    Front-End Developer
+                  </span>
+                  .!
+                </p>
                 <p className='w-[820px] text-[#ccd6f6] text-[19px] pl-1 mt-[35px] mb-[55px] animate__animated animate__fadeIn animate__delay-4s'>
                     I am a detail-oriented Front-End Developer based in Azerbaijan.
                     I specialize in building responsive and user-friendly web applications using modern technologies like React, Tailwind CSS, and JavaScript.
