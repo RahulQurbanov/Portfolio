@@ -3,13 +3,13 @@ import 'animate.css';
 
 export default function Header() {
     return (
-        <div className='bg-[#0a192f] flex flex-col gap-[10px]'>
+        <div id='home' className='bg-[#0a192f] flex flex-col gap-[10px]'>
             <nav className='flex justify-between items-center py-5 px-[45px] text-[17px] bg-[#071726] animate__animated animate__fadeInDown animate__delay-1s'>
                 <div className='text-gray-300'>Logo:</div>
                 <div className='flex gap-10 text-gray-300'>
-                    <a href="#" className='hover:text-[#64ffda] animate__animated animate__fadeInRight animate__delay-2s'>About:</a>
-                    <a href="#projects" className='hover:text-[#64ffda] animate__animated animate__fadeInRight animate__delay-2s'>Project:</a>
-                    <a href="#contact" className='hover:text-[#64ffda] animate__animated animate__fadeInRight animate__delay-2s'>Contact:</a>
+                    <a href="#home" className='hover:text-[#64ffda] animate__animated animate__fadeInRight animate__delay-2s'>About</a>
+                    <a href="#projects" className='hover:text-[#64ffda] animate__animated animate__fadeInRight animate__delay-2s'>Project</a>
+                    <a href="#contact" className='hover:text-[#64ffda] animate__animated animate__fadeInRight animate__delay-2s'>Contact</a>
                 </div>
             </nav>
 
