@@ -1,7 +1,7 @@
 import React from "react"
 export default function Footer() {
     return <div className="bg-[#0a192f]">
-        <div className="w-[73%] m-auto pt-[75px]">
+        <div id="contact" className="w-[73%] m-auto pt-[75px]">
             <h1 className="text-white text-3xl font-bold">Contact Info :</h1>
             <div className="text-white text-lg mt-[25px]">
                 <p>Email: <span className="text-[#547792] font-bold">rahulqurbanov055@gmail.com</span></p>

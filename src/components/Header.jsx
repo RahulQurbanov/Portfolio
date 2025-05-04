@@ -9,7 +9,7 @@ export default function Header() {
                 <div className='flex gap-10 text-gray-300'>
                     <a href="#" className='hover:text-[#64ffda] animate__animated animate__fadeInRight animate__delay-2s'>About:</a>
                     <a href="#" className='hover:text-[#64ffda] animate__animated animate__fadeInRight animate__delay-2s'>Project:</a>
-                    <a href="#" className='hover:text-[#64ffda] animate__animated animate__fadeInRight animate__delay-2s'>Contact:</a>
+                    <a href="#contact" className='hover:text-[#64ffda] animate__animated animate__fadeInRight animate__delay-2s'>Contact:</a>
                 </div>
             </nav>
 
