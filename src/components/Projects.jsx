@@ -43,7 +43,7 @@ export default function Projects() {
             </div>
             <div className='flex gap-2 items-end justify-end'>
            <a href="https://github.com/RahulQurbanov/Investment-Calculator"><img src="./src/assets/img/github1.svg" className="w-[50px] h-[50px] cursor-pointer  opacity-45 hover:opacity-100" /></a>
-            <a href=""><img src="./src/assets/img/live.svg" className="w-[40px] h-[40px] cursor-pointer opacity-45 hover:opacity-100" /></a>
+            <a href=""><img src="./src/assets/img/live.svg" className="w-[40px] bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent animate-pulse h-[40px] cursor-pointer" /></a>
             </div>
           </div>
         </div>
@@ -62,7 +62,7 @@ Users can input their desired investment amount, interest rate, and the number o
             </div>
             <div className='flex gap-2 items-end justify-end'>
            <a href="https://github.com/RahulQurbanov/Investment-Calculator"><img src="./src/assets/img/github1.svg" className="w-[50px] h-[50px] cursor-pointer  opacity-45 hover:opacity-100" /></a>
-            <a href=""><img src="./src/assets/img/live.svg" className="w-[40px] h-[40px] cursor-pointer opacity-45 hover:opacity-100" /></a>
+            <a href=""><img src="./src/assets/img/live.svg" className="w-[40px] bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent animate-pulse h-[40px] cursor-pointer" /></a>
             </div>
             </div>
             <div className={`w-[50%] flex justify-end ${inView ? 'animate__animated animate__zoomIn' : ''}`}>
@@ -86,7 +86,7 @@ Users can input their desired investment amount, interest rate, and the number o
             </div>
             <div className='flex gap-2 items-end justify-end'>
            <a href="https://github.com/RahulQurbanov/Quiz-App"><img src="./src/assets/img/github1.svg" className="w-[50px] h-[50px] cursor-pointer  opacity-45 hover:opacity-100" /></a>
-            <a href="http://localhost:5173/"><img src="./src/assets/img/live.svg" className="w-[40px] h-[40px] cursor-pointer opacity-45 hover:opacity-100" /></a>
+            <a href="http://localhost:5173/"><img src="./src/assets/img/live.svg" className="w-[40px] bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent animate-pulse h-[40px] cursor-pointer" /></a>
             </div>
             </div>
         </div>
@@ -102,7 +102,7 @@ Users can input their desired investment amount, interest rate, and the number o
             </div>
             <div className='flex gap-2 items-end justify-end'>
            <a href="https://github.com/RahulQurbanov/Todo-List-"><img src="./src/assets/img/github1.svg" className="w-[50px] h-[50px] cursor-pointer  opacity-45 hover:opacity-100" /></a>
-            <a href="https://rahulqurbanov.github.io/Todo-List-/"><img src="./src/assets/img/live.svg" className="w-[40px] h-[40px] cursor-pointer opacity-45 hover:opacity-100" /></a>
+            <a href="https://rahulqurbanov.github.io/Todo-List-/"><img src="./src/assets/img/live.svg" className="w-[40px] bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent animate-pulse h-[40px] cursor-pointer" /></a>
             </div>
             </div>
             <div className={`w-[50%] flex justify-end ${inView ? 'animate__animated animate__zoomIn' : ''}`}>
@@ -123,7 +123,7 @@ Users can input their desired investment amount, interest rate, and the number o
             </div>
             <div className='flex gap-2 items-end justify-end'>
            <a href="https://github.com/RahulQurbanov/Project-KoolCoders"><img src="./src/assets/img/github1.svg" className="w-[50px] h-[50px] cursor-pointer  opacity-45 hover:opacity-100" /></a>
-            <a href="https://rahulqurbanov.github.io/Project-KoolCoders/"><img src="./src/assets/img/live.svg" className="w-[40px] h-[40px] cursor-pointer opacity-45 hover:opacity-100" /></a>
+            <a href="https://rahulqurbanov.github.io/Project-KoolCoders/"><img src="./src/assets/img/live.svg" className="w-[40px] bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent animate-pulse h-[40px] cursor-pointer" /></a>
             </div>
             </div>
         </div>
@@ -139,7 +139,7 @@ Users can input their desired investment amount, interest rate, and the number o
             </div>
             <div className='flex gap-2 items-end justify-end'>
            <a href="https://github.com/RahulQurbanov/Weather-prognoz"><img src="./src/assets/img/github1.svg" className="w-[50px] h-[50px] cursor-pointer  opacity-45 hover:opacity-100" /></a>
-            <a href="https://rahulqurbanov.github.io/Weather-prognoz/"><img src="./src/assets/img/live.svg" className="w-[40px] h-[40px] cursor-pointer opacity-45 hover:opacity-100" /></a>
+            <a href="https://rahulqurbanov.github.io/Weather-prognoz/"><img src="./src/assets/img/live.svg" className="w-[40px] bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent animate-pulse h-[40px] cursor-pointer" /></a>
             </div>
             </div>
             <div className={`w-[50%] flex justify-end ${inView ? 'animate__animated animate__zoomIn' : ''}`}>
