@@ -48,7 +48,7 @@ export default function Projects() {
           </div>
         </div>
         <div className='flex flex-row gap-[20px] justify-between mb-[95px' ref={projectRef}>
-            <div className={`w-[50%] flex flex-col gap-[15px]  ${inView ? 'animate__animated animate__zoomIn' : ''}`}>
+            <div className={`w-[45%] flex flex-col gap-[15px]  ${inView ? 'animate__animated animate__zoomIn' : ''}`}>
                <h2 className='text-[#ccd6f6] text-[30px] font-bold'>Investment Calculator</h2>
                <div className='w-[500px] bg-[#112240] text-gray-300 rounded-lg py-2 px-5'>This project is an interactive Investment Calculator built with React and styled using Tailwind CSS.
 Users can input their desired investment amount, interest rate, and the number of months — the calculator will automatically compute the potential returns based on these values.</div>
