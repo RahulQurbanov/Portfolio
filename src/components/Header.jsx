@@ -60,6 +60,10 @@ export default function Header() {
                     <img src="/img/node.svg" className="w-[35px] h-[35px] animate__animated animate__rotateIn animate__delay-5s" />
                     <img src="/img/tailwind.svg" className="w-[40px] h-[45px] animate__animated animate__rotateIn animate__delay-5s" />
                   </div>
+                  <div className="flex flex-col gap-7">
+                    <img src="/img/node.svg" className="w-[35px] h-[35px] animate__animated animate__rotateIn animate__delay-5s" />
+                    <img src="/img/tailwind.svg" className="w-[40px] h-[45px] animate__animated animate__rotateIn animate__delay-5s" />
+                  </div>
                      </div>
 
                 </div>
