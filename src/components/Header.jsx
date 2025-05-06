@@ -5,7 +5,7 @@ export default function Header() {
     return (
         <div id='home' className='bg-[#0a192f] flex flex-col gap-[10px]'>
             <nav className='flex justify-between items-center py-5 px-[45px] text-[17px] bg-[rgb(7,23,38)] animate__animated animate__fadeInDown animate__delay-1s'>
-                <div className='text-gray-300'><img src="./src/assets/img/logo.jpg" className='w-[40px] h-[40px] rounded-xl' /></div>
+                <div className='text-gray-300'><img src="/img/logo.jpg" className='w-[40px] h-[40px] rounded-xl' /></div>
                 <div className='flex gap-10 text-gray-300'>
                     <a href="#home" className='hover:text-[#64ffda] animate__animated animate__fadeInRight animate__delay-2s'>About</a>
                     <a href="#projects" className='hover:text-[#64ffda] animate__animated animate__fadeInRight animate__delay-2s'>Project</a>
@@ -41,24 +41,24 @@ export default function Header() {
                     </h1>
                     <div className="mt-2 flex gap-10">
                   <div className="flex flex-col gap-7">
-                    <img src="./src/assets/img/js.png" className="w-[35px] h-[35px] animate__animated animate__rotateIn animate__delay-5s" />
-                    <img src="./src/assets/img/html.webp" className="w-[35px] h-[35px] animate__animated animate__rotateIn animate__delay-5s" />
+                    <img src="/img/js.png" className="w-[35px] h-[35px] animate__animated animate__rotateIn animate__delay-5s" />
+                    <img src="/img/html.webp" className="w-[35px] h-[35px] animate__animated animate__rotateIn animate__delay-5s" />
                   </div>
                   <div className="flex flex-col gap-7">
-                    <img src="./src/assets/img/css.svg" className="w-[35px] h-[35px] animate__animated animate__rotateIn animate__delay-5s" />
-                    <img src="./src/assets/img/git.svg" className="w-[35px] h-[35px] animate__animated animate__rotateIn animate__delay-5s" />
+                    <img src="/img/css.svg" className="w-[35px] h-[35px] animate__animated animate__rotateIn animate__delay-5s" />
+                    <img src="/img/git.svg" className="w-[35px] h-[35px] animate__animated animate__rotateIn animate__delay-5s" />
                   </div>
                   <div className="flex flex-col gap-7">
-                    <img src="./src/assets/img/github.svg" className="w-[35px] h-[35px] animate__animated animate__rotateIn animate__delay-5s" />
-                    <img src="./src/assets/img/sass.png" className="w-[35px] h-[35px] animate__animated animate__rotateIn animate__delay-5s" />
+                    <img src="/img/github.svg" className="w-[35px] h-[35px] animate__animated animate__rotateIn animate__delay-5s" />
+                    <img src="/img/sass.png" className="w-[35px] h-[35px] animate__animated animate__rotateIn animate__delay-5s" />
                   </div>
                   <div className="flex flex-col gap-7">
-                    <img src="./src/assets/img/react.svg" className="w-[35px] h-[35px] animate__animated animate__rotateIn animate__delay-5s" />
-                    <img src="./src/assets/img/figma.png" className="w-[22px] h-[35px] ml-2 animate__animated animate__rotateIn animate__delay-5s" />
+                    <img src="/img/react.svg" className="w-[35px] h-[35px] animate__animated animate__rotateIn animate__delay-5s" />
+                    <img src="/img/figma.png" className="w-[22px] h-[35px] ml-2 animate__animated animate__rotateIn animate__delay-5s" />
                   </div>
                   <div className="flex flex-col gap-7">
-                    <img src="./src/assets/img/node.svg" className="w-[35px] h-[35px] animate__animated animate__rotateIn animate__delay-5s" />
-                    <img src="./src/assets/img/tailwind.svg" className="w-[40px] h-[45px] animate__animated animate__rotateIn animate__delay-5s" />
+                    <img src="/img/node.svg" className="w-[35px] h-[35px] animate__animated animate__rotateIn animate__delay-5s" />
+                    <img src="/img/tailwind.svg" className="w-[40px] h-[45px] animate__animated animate__rotateIn animate__delay-5s" />
                   </div>
                      </div>
 
