@@ -8,8 +8,8 @@ export default function Footer() {
                 <p>Phone: <span className="text-[#547792] font-bold">+9940558902705</span></p>
             </div>
             <div className="flex gap-1 items-center mt-[20px]">
-               <a href="https://github.com/RahulQurbanov?tab=overview&from=2025-04-01&to=2025-04-21"><img src="src/assets/img/github.svg" className="w-[40px] h-[30px] cursor-pointer"/></a>
-                <a href="https://www.linkedin.com/in/rahul-qurbanov-483148261/"><img src="src/assets/img/linkedin.svg" className="w-[30px] h-[25px] cursor-pointer"/></a>
+               <a href="https://github.com/RahulQurbanov?tab=overview&from=2025-04-01&to=2025-04-21"><img src="/img/github.svg" className="w-[40px] h-[30px] cursor-pointer"/></a>
+                <a href="https://www.linkedin.com/in/rahul-qurbanov-483148261/"><img src="/img/linkedin.svg" className="w-[30px] h-[25px] cursor-pointer"/></a>
             </div>
         </div>
     </div>
