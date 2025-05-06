@@ -5,7 +5,7 @@ export default function Header() {
     return (
         <div id='home' className='bg-[#0a192f] flex flex-col gap-[10px] scroll-smooth'>
             <nav className='flex justify-between items-center py-5 px-[45px] text-[17px] bg-[rgb(7,23,38)] animate__animated animate__fadeInDown animate__delay-1s'>
-                <div className='text-gray-300'><img src="/img/logo.jpg" className='w-[40px] h-[40px] rounded-xl' /></div>
+                <div className='text-gray-300'><img src="/img/developer.svg" className='w-[55px] h-[40px] rounded-xl' /></div>
                 <div className='flex gap-10 text-gray-300'>
                     <a href="#home" className='hover:text-[#64ffda] animate__animated animate__fadeInRight animate__delay-2s'>About</a>
                     <a href="#projects" className='hover:text-[#64ffda] animate__animated animate__fadeInRight animate__delay-2s'>Project</a>
