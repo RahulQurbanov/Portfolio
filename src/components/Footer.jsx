@@ -3,7 +3,7 @@ import React from "react";
 export default function Footer() {
   return (
     <div className="bg-[#0a192f]">
-      <div id="contact" className="w-[85%] max-w-6xl mx-auto pt-[45px]">
+      <div id="contact" className="w-[85%] max-w-6xl mx-auto pt-[75px]">
         <h1 className="text-white text-3xl font-bold mb-6 border-b-2 border-[#133563] mt-2 inline-block">
           📬 Contact Info
         </h1>
