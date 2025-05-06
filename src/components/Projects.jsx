@@ -91,24 +91,24 @@ Users can input their desired investment amount, interest rate, and the number o
             <a href="https://github.com/RahulQurbanov/Investment-Calculator"><img src="/img/investment.png" className='h-[75%] w-[475px] rounded-xl opacity-20 hover:opacity-65 cursor-pointer transition-all translate-0.5 ease-in-out'/></a>
             </div>
         </div>
-        {/* <div className='flex flex-row gap-[20px] justify-around mb-[45px]' ref={quizRef}>
+        <div className='flex flex-row gap-[20px] justify-around mb-[45px]' ref={quizRef}>
         <div className={`w-[50%]`}>
-            <a href="https://github.com/RahulQurbanov/Quiz-App"><img src="src/assets/img/quizapp.png" className='h-[95%] w-[480px] rounded-lg opacity-20 hover:opacity-65 cursor-pointer transition-all translate-0.5 ease-in-out'/></a>
+            <a href="https://github.com/RahulQurbanov/Quiz-App"><img src="/img/quizapp.png" className='h-[95%] w-[480px] rounded-lg opacity-20 hover:opacity-65 cursor-pointer transition-all translate-0.5 ease-in-out'/></a>
             </div>
             <div className={`w-[45%] flex flex-col gap-[15px]`}>
                <h2 className='text-[#ccd6f6] text-[30px] font-bold'>Quiz App</h2>
                <div className='w-[500px] bg-[#112240] text-gray-300 rounded-lg py-2 px-5'>This is a dynamic Quiz App built using React and styled with Tailwind CSS.
                 All questions are loaded from a JSON file, and users receive points for each correct answer, while wrong answers do not reduce the score. The app offers smooth interaction, real-time feedback, and is perfect for quick knowledge testing.</div>
             <div className='flex gap-5'>
-                  <img src="./src/assets/img/html.webp" className={`w-[35px] h-[35px] ${quizInView ? 'animate__animated animate__rotateIn' : ''}`} />
-                  <img src="./src/assets/img/js.png" className={`w-[35px] h-[35px] ${quizInView ? 'animate__animated animate__rotateIn' : ''}`} />
-                  <img src="./src/assets/img/react.svg" className={`w-[35px] h-[35px] ${quizInView ? 'animate__animated animate__rotateIn' : ''}`} />
-                  <img src="./src/assets/img/vite.svg" className={`w-[35px] h-[35px] ${quizInView ? 'animate__animated animate__rotateIn' : ''}`} />
-                  <img src="./src/assets/img/tailwind.svg" className={`w-[35px] h-[35px] ${quizInView ? 'animate__animated animate__rotateIn' : ''}`} />
+                  <img src="/img/html.webp" className={`w-[35px] h-[35px] ${quizInView ? 'animate__animated animate__rotateIn' : ''}`} />
+                  <img src="/img/js.png" className={`w-[35px] h-[35px] ${quizInView ? 'animate__animated animate__rotateIn' : ''}`} />
+                  <img src="/img/react.svg" className={`w-[35px] h-[35px] ${quizInView ? 'animate__animated animate__rotateIn' : ''}`} />
+                  <img src="/img/vite.svg" className={`w-[35px] h-[35px] ${quizInView ? 'animate__animated animate__rotateIn' : ''}`} />
+                  <img src="/img/tailwind.svg" className={`w-[35px] h-[35px] ${quizInView ? 'animate__animated animate__rotateIn' : ''}`} />
             </div>
             <div className='flex gap-2 items-end justify-end'>
-           <a href="https://github.com/RahulQurbanov/Quiz-App"><img src="./src/assets/img/github1.svg" className="w-[50px] h-[50px] cursor-pointer  opacity-45 hover:opacity-100" /></a>
-            <a href="http://localhost:5173/"><img src="./src/assets/img/live.svg" className="w-[40px] bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent animate-pulse h-[40px] cursor-pointer" /></a>
+           <a href="https://github.com/RahulQurbanov/Quiz-App"><img src="/img/github1.svg" className="w-[50px] h-[50px] cursor-pointer  opacity-45 hover:opacity-100" /></a>
+            <a href="http://localhost:5173/"><img src="/img/live.svg" className="w-[40px] bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent animate-pulse h-[40px] cursor-pointer" /></a>
             </div>
             </div>
         </div>
@@ -167,7 +167,7 @@ Users can input their desired investment amount, interest rate, and the number o
             <div className={`w-[50%] flex justify-end`}>
             <a href="https://github.com/RahulQurbanov/Weather-prognoz"><img src="src/assets/img/Weather.png" className='h-[97%] w-[485px] rounded-lg opacity-20 hover:opacity-65 cursor-pointer transition-all translate-0.5 ease-in-out'/></a>
             </div>
-        </div> */}
+        </div>
       </div>
       </div>
   )}
