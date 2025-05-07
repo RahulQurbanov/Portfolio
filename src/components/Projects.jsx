@@ -42,7 +42,7 @@ export default function Projects() {
         Profile.
       </h1>
 
-        <div className='flex flex-row gap-[20px] justify-around mb-[95px]' ref={investmentRef}>
+        <div className='flex flex-row gap-[20px] justify-around mb-[95px' ref={investmentRef}>
         <div className={`w-[50%]`}>
           <a href="https://github.com/RahulQurbanov/Investment-Calculator">
             <img src="/img/investment.png" className='h-[75%] w-[475px] rounded-xl opacity-20 hover:opacity-65 cursor-pointer transition-all translate-0.5 ease-in-out' />
