@@ -39,7 +39,7 @@ export default function Projects() {
         >
           GitHub
         </a>{' '}
-        Profile.
+        Profile..
       </h1>
 
         <div className='flex flex-row gap-[20px] justify-around mb-[95px' ref={investmentRef}>
