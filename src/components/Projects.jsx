@@ -31,7 +31,7 @@ export default function Projects() {
   return (
     <div className='bg-[#0a192f]'>
     <div id='projects' className='w-[75%] m-auto'>
-      <h1 className='text-[29px] font-bold w-[76%] m-auto text-white py-[45px]'>
+      <h1 className='text-[29px] font-bold w-[76% m-auto text-white py-[45px]'>
         You can check out all my projects on my{' '}
         <a
           href="https://github.com/RahulQurbanov"
