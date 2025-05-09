@@ -98,7 +98,7 @@ Users can input their desired investment amount, interest rate, and the number o
             <div className={`w-[45%] flex flex-col gap-[15px]`}>
                <h2 className='text-[#ccd6f6] text-[30px] font-bold'>Quiz App</h2>
                <div className='w-[500px] bg-[#112240] text-gray-300 rounded-lg py-2 px-5'>This is a dynamic Quiz App built using React and styled with Tailwind CSS.
-                All questions are loaded from a JSON file, and users receive points for each correct answer, while wrong answers do not reduce the score. The app offers smooth interaction, real-time feedback, and is perfect for quick knowledge testing.</div>
+                All questions are loaded from a JSON file, and users receive points for each correct answe , while wrong answers do not reduce the score. The app offers smooth interaction, real-time feedback, and is perfect for quick knowledge testing.</div>
             <div className='flex gap-5'>
                   <img src="/img/html.webp" className={`w-[35px] h-[35px] ${quizInView ? 'animate__animated animate__rotateIn' : ''}`} />
                   <img src="/img/js.png" className={`w-[35px] h-[35px] ${quizInView ? 'animate__animated animate__rotateIn' : ''}`} />
@@ -114,7 +114,7 @@ Users can input their desired investment amount, interest rate, and the number o
         </div>
         <div className='flex flex-row gap-[20px] justify-around mb-[95px]' ref={todoRef}>
             <div className={`w-[45%] flex flex-col gap-[15px]`}>
-               <h2 className='text-[#ccd6f6] text-[30px] font-bold'>TodoList App</h2>
+               <h2 className='text-[#ccd6f6] text-[30px] font-bold'>TodoList App :</h2>
                <div className='w-[500px] bg-[#112240] text-gray-300 rounded-lg py-2 px-5'>This project is a To-Do List Application built with React and Vite. The application features two separate sections: Active and Done — allowing users to efficiently organize their tasks. Users can easily add new tasks, edit task names, mark them as completed, or delete them. The app offers a smooth and intuitive experience, making task management clear and convenient.</div>
             <div className='flex gap-5'>
             <img src="/img/html.webp" className={`w-[35px] h-[35px] ${todoInView ? 'animate__animated animate__rotateIn' : ''}`} />
@@ -151,7 +151,7 @@ Users can input their desired investment amount, interest rate, and the number o
         </div>
         <div className='flex flex-row gap-[20px] justify-around'  ref={weatherRef}>
             <div className={`w-[45%] flex flex-col gap-[15px]`}>
-               <h2 className='text-[#ccd6f6] text-[30px] font-bold'>Weather Projects</h2>
+               <h2 className='text-[#ccd6f6] text-[30px] font-bold'>Weather Projects :</h2>
                <div className='w-[500px] bg-[#112240] text-gray-300 rounded-lg py-2 px-5'>This project was built using HTML, CSS, and JavaScript. It fetches real-time 7-day weather forecasts for any city worldwide using the OpenWeather API. The user can search for a city, and the app displays accurate and up-to-date weather information in a clean and user-friendly design.</div>
             <div className='flex gap-5'>
             <img src="/img/html.webp" className={`w-[35px] h-[35px] ${weatherInView ? 'animate__animated animate__rotateIn' : ''}`} />
