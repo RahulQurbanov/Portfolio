@@ -63,7 +63,7 @@ export default function Projects() {
           </div>
           <div className='flex gap-2 items-end justify-end'>
             <a href="https://github.com/RahulQurbanov/E-commers"><img src="/img/github1.svg" className="w-[50px] h-[50px] cursor-pointer  opacity-45 hover:opacity-100" /></a>
-            <a href=""><img src="/img/live.svg" className="w-[40px] bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent animate-pulse h-[40px] cursor-pointer" /></a>
+            <a href="https://github.com/RahulQurbanov/E-commers"><img src="/img/live.svg" className="w-[40px] bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent animate-pulse h-[40px] cursor-pointer" /></a>
           </div>
         </div>
       </div>
@@ -82,7 +82,7 @@ Users can input their desired investment amount, interest rate, and the number o
             </div>
             <div className='flex gap-2 items-end justify-end'>
            <a href="https://github.com/RahulQurbanov/Investment-Calculator"><img src="/img/github1.svg" className="w-[50px] h-[50px] cursor-pointer  opacity-45 hover:opacity-100" /></a>
-            <a href=""><img src="/img/live.svg" className="w-[40px] bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent animate-pulse h-[40px] cursor-pointer" /></a>
+            <a href="https://github.com/RahulQurbanov/Investment-Calculator"><img src="/img/live.svg" className="w-[40px] bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent animate-pulse h-[40px] cursor-pointer" /></a>
             </div>
             </div>
             <div className={`w-[50%] flex justify-end`}>
