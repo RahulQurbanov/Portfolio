@@ -3,6 +3,10 @@ import { useInView } from 'react-intersection-observer';
 import 'animate.css';
 
 export default function Projects() {
+  const { ref: ecommersRef, inView: ecommersInView } = useInView({
+    triggerOnce: true,
+    threshold: 0.5,
+  });
   const { ref: investmentRef, inView: investmentInView } = useInView({
     triggerOnce: true,
     threshold: 0.5,
@@ -42,7 +46,7 @@ export default function Projects() {
         Profile..
       </h1>
 
-        <div className='flex flex-row gap-[20px] justify-around mb-[95px]' ref={investmentRef}>
+        <div className='flex flex-row gap-[20px] justify-around mb-[95px]' ref={ecommersRef}>
         <div className={`w-[50%]`}>
           <a href="https://github.com/RahulQurbanov/E-commers">
             <img src="/img/mybrand.jpeg" className='h-[85%] w-[465px] rounded-xl opacity-20 hover:opacity-65 cursor-pointer transition-all translate-0.5 ease-in-out' />
@@ -54,12 +58,12 @@ export default function Projects() {
           <div className='w-[500px] bg-[#112240] text-gray-300 rounded-lg py-2 px-5'>
           The application integrates multiple real-world APIs to simulate a functional shopping experience. Each section of the website fetches live data from separate APIs  from products and categories to detailed product views  ensuring that the content remains fresh and realistic.           </div>
           <div className='flex gap-5'>
-            <img src="/img/html.webp" className={`w-[35px] h-[35px] ${investmentInView ? 'animate__animated animate__rotateIn' : ''}`} />
-            <img src="/img/js.png" className={`w-[35px] h-[35px] ${investmentInView ? 'animate__animated animate__rotateIn' : ''}`} />
-            <img src="/img/react.svg" className={`w-[35px] h-[35px] ${investmentInView ? 'animate__animated animate__rotateIn' : ''}`} />
-            <img src="/img/vite.svg" className={`w-[35px] h-[35px] ${investmentInView ? 'animate__animated animate__rotateIn' : ''}`} />
-            <img src="/img/tailwind.svg" className={`w-[35px] h-[35px] ${investmentInView ? 'animate__animated animate__rotateIn' : ''}`} />
-            <img src="/img/api.svg" className={`w-[35px] h-[35px] ${investmentInView ? 'animate__animated animate__rotateIn' : ''}`} />
+            <img src="/img/html.webp" className={`w-[35px] h-[35px] ${ecommersInView ? 'animate__animated animate__rotateIn' : ''}`} />
+            <img src="/img/js.png" className={`w-[35px] h-[35px] ${ecommersInView ? 'animate__animated animate__rotateIn' : ''}`} />
+            <img src="/img/react.svg" className={`w-[35px] h-[35px] ${ecommersInView ? 'animate__animated animate__rotateIn' : ''}`} />
+            <img src="/img/vite.svg" className={`w-[35px] h-[35px] ${ecommersInView ? 'animate__animated animate__rotateIn' : ''}`} />
+            <img src="/img/tailwind.svg" className={`w-[35px] h-[35px] ${ecommersInView ? 'animate__animated animate__rotateIn' : ''}`} />
+            <img src="/img/api.svg" className={`w-[35px] h-[35px] ${ecommersInView ? 'animate__animated animate__rotateIn' : ''}`} />
           </div>
           <div className='flex gap-2 items-end justify-end'>
             <a href="https://github.com/RahulQurbanov/E-commers"><img src="/img/github1.svg" className="w-[50px] h-[50px] cursor-pointer  opacity-45 hover:opacity-100" /></a>
