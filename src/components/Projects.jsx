@@ -42,19 +42,17 @@ export default function Projects() {
         Profile..
       </h1>
 
-        <div className='flex flex-row gap-[20px] justify-around mb-[95px' ref={investmentRef}>
+        <div className='flex flex-row gap-[20px] justify-around mb-[95px]' ref={investmentRef}>
         <div className={`w-[50%]`}>
-          <a href="https://github.com/RahulQurbanov/Investment-Calculator">
-            <img src="/img/investment.png" className='h-[75%] w-[475px] rounded-xl opacity-20 hover:opacity-65 cursor-pointer transition-all translate-0.5 ease-in-out' />
+          <a href="https://github.com/RahulQurbanov/E-commers">
+            <img src="/img/mybrand.jpeg" className='h-[85%] w-[465px] rounded-xl opacity-20 hover:opacity-65 cursor-pointer transition-all translate-0.5 ease-in-out' />
           </a>
         </div>
 
         <div className={`w-[50%] flex flex-col gap-[15px]`}>
-          <h2 className='text-[#ccd6f6] text-[30px] font-bold'>Investment Calculator</h2>
+          <h2 className='text-[#ccd6f6] text-[30px] font-bold'>E-commers</h2>
           <div className='w-[500px] bg-[#112240] text-gray-300 rounded-lg py-2 px-5'>
-            This project is an interactive Investment Calculator built with React and styled using Tailwind CSS.
-            Users can input their desired investment amount, interest rate, and the number of months — the calculator will automatically compute the potential returns based on these values.
-          </div>
+          The application integrates multiple real-world APIs to simulate a functional shopping experience. Each section of the website fetches live data from separate APIs  from products and categories to detailed product views  ensuring that the content remains fresh and realistic.           </div>
           <div className='flex gap-5'>
             <img src="/img/html.webp" className={`w-[35px] h-[35px] ${investmentInView ? 'animate__animated animate__rotateIn' : ''}`} />
             <img src="/img/js.png" className={`w-[35px] h-[35px] ${investmentInView ? 'animate__animated animate__rotateIn' : ''}`} />
@@ -64,7 +62,7 @@ export default function Projects() {
             <img src="/img/api.svg" className={`w-[35px] h-[35px] ${investmentInView ? 'animate__animated animate__rotateIn' : ''}`} />
           </div>
           <div className='flex gap-2 items-end justify-end'>
-            <a href="https://github.com/RahulQurbanov/Investment-Calculator"><img src="/img/github1.svg" className="w-[50px] h-[50px] cursor-pointer  opacity-45 hover:opacity-100" /></a>
+            <a href="https://github.com/RahulQurbanov/E-commers"><img src="/img/github1.svg" className="w-[50px] h-[50px] cursor-pointer  opacity-45 hover:opacity-100" /></a>
             <a href=""><img src="/img/live.svg" className="w-[40px] bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent animate-pulse h-[40px] cursor-pointer" /></a>
           </div>
         </div>
