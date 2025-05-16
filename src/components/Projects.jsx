@@ -86,12 +86,12 @@ Users can input their desired investment amount, interest rate, and the number o
             </div>
             </div>
             <div className={`w-[50%] flex justify-end`}>
-            <a href="https://github.com/RahulQurbanov/Investment-Calculator"><img src="/img/investment.png" className='h-[75%] w-[475px] rounded-xl opacity-20 hover:opacity-65 cursor-pointer transition-all translate-0.5 ease-in-out'/></a>
+            <a href="https://github.com/RahulQurbanov/Investment-Calculator"><img src="/img/investment.png" className='h-[70%] w-[475px] rounded-xl opacity-20 hover:opacity-65 cursor-pointer transition-all translate-0.5 ease-in-out'/></a>
             </div>
         </div>
         <div className='flex flex-row gap-[20px] justify-around mb-[45px]' ref={quizRef}>
         <div className={`w-[50%]`}>
-            <a href="https://github.com/RahulQurbanov/Quiz-App"><img src="/img/quizapp.png" className='h-[95%] w-[480px] rounded-lg opacity-20 hover:opacity-65 cursor-pointer transition-all translate-0.5 ease-in-out'/></a>
+            <a href="https://github.com/RahulQurbanov/Quiz-App"><img src="/img/quizapp.png" className='h-[85%] w-[480px] rounded-lg opacity-20 hover:opacity-65 cursor-pointer transition-all translate-0.5 ease-in-out'/></a>
             </div>
             <div className={`w-[45%] flex flex-col gap-[15px]`}>
                <h2 className='text-[#ccd6f6] text-[30px] font-bold'>Quiz App</h2>
@@ -126,12 +126,12 @@ Users can input their desired investment amount, interest rate, and the number o
             </div>
             </div>
             <div className={`w-[50%] flex justify-end`}>
-            <a href="https://rahulqurbanov.github.io/Todo-List-/"><img src="/img/todo-react.png" className='h-[85%] mt-[15px] w-[465px] rounded-lg opacity-20 hover:opacity-65 cursor-pointer transition-all translate-0.5 ease-in-out'/></a>
+            <a href="https://rahulqurbanov.github.io/Todo-List-/"><img src="/img/todo-react.png" className='h-[77%] mt-[15px] w-[465px] rounded-lg opacity-20 hover:opacity-65 cursor-pointer transition-all translate-0.5 ease-in-out'/></a>
             </div>
         </div>
         <div className='flex flex-row gap-[20px] justify-around mb-[45px]' ref={koolCodersRef}>
         <div className={`w-[50%]`}>
-            <a href="https://github.com/RahulQurbanov/Project-KoolCoders"><img src="/img/KoolCoders.png" className='h-[95%] w-[475px] rounded-lg opacity-20 hover:opacity-65 cursor-pointer transition-all translate-0.5 ease-in-out'/></a>
+            <a href="https://github.com/RahulQurbanov/Project-KoolCoders"><img src="/img/KoolCoders.png" className='h-[85%] w-[475px] rounded-lg opacity-20 hover:opacity-65 cursor-pointer transition-all translate-0.5 ease-in-out'/></a>
             </div>
             <div className={`w-[45%] flex flex-col gap-[15px]`}>
                <h2 className='text-[#ccd6f6] text-[30px] font-bold'>KoolCoders Projects</h2>
@@ -163,7 +163,7 @@ Users can input their desired investment amount, interest rate, and the number o
             </div>
             </div>
             <div className={`w-[50%] flex justify-end`}>
-            <a href="https://github.com/RahulQurbanov/Weather-prognoz"><img src="/img/Weather.png" className='h-[97%] w-[485px] rounded-lg opacity-20 hover:opacity-65 cursor-pointer transition-all translate-0.5 ease-in-out'/></a>
+            <a href="https://github.com/RahulQurbanov/Weather-prognoz"><img src="/img/Weather.png" className='h-[81%] w-[485px] rounded-lg opacity-20 hover:opacity-65 cursor-pointer transition-all translate-0.5 ease-in-out'/></a>
             </div>
         </div>
       </div>
