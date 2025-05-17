@@ -180,7 +180,7 @@ export default function Projects() {
     </div>
   </div>
         </div>
-        <div className='flex flex-col lg:flex-row gap-6 lg:gap-[20px] justify-around mb-10 lg:mb-[45px]' ref={weatherRef}>
+        <div className='flex flex-col lg:flex-row gap-6 lg:gap-[20px] justify-around  lg:mb-[45px' ref={weatherRef}>
   <div className='w-full lg:w-[45%] flex flex-col gap-4 lg:gap-[15px]'>
     <h2 className='text-[#ccd6f6] text-2xl lg:text-[30px] font-bold'>Weather Projects :</h2>
     <div className='w-full lg:w-[500px] bg-[#112240] text-gray-300 rounded-lg py-2 px-4 lg:px-5'>
