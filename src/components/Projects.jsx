@@ -180,25 +180,27 @@ export default function Projects() {
     </div>
   </div>
 </div>
-        {/* <div className='flex flex-row gap-[20px] justify-around'  ref={weatherRef}>
-            <div className={`w-[45%] flex flex-col gap-[15px]`}>
-               <h2 className='text-[#ccd6f6] text-[30px] font-bold'>Weather Projects :</h2>
-               <div className='w-[500px] bg-[#112240] text-gray-300 rounded-lg py-2 px-5'>This project was built using HTML, CSS, and JavaScript. It fetches real-time 7-day weather forecasts for any city worldwide using the OpenWeather API. The user can search for a city, and the app displays accurate and up-to-date weather information in a clean and user-friendly design.</div>
-            <div className='flex gap-5'>
-            <img src="/img/html.webp" className={`w-[35px] h-[35px] ${weatherInView ? 'animate__animated animate__rotateIn' : ''}`} />
-                  <img src="/img/css.svg" className={`w-[35px] h-[35px] ${weatherInView ? 'animate__animated animate__rotateIn' : ''}`} />
-                  <img src="/img/js.png" className={`w-[35px] h-[35px] ${weatherInView ? 'animate__animated animate__rotateIn' : ''}`} />
-                  <img src="/img/api.svg" className={`w-[35px] h-[35px] ${weatherInView ? 'animate__animated animate__rotateIn' : ''}`} />
-            </div>
-            <div className='flex gap-2 items-end justify-end'>
-           <a href="https://github.com/RahulQurbanov/Weather-prognoz"><img src="/img/github1.svg" className="w-[50px] h-[50px] cursor-pointer  opacity-45 hover:opacity-100" /></a>
-            <a href="https://rahulqurbanov.github.io/Weather-prognoz/"><img src="/img/live.svg" className="w-[40px] bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent animate-pulse h-[40px] cursor-pointer" /></a>
-            </div>
-            </div>
-            <div className={`w-[50%] flex justify-end`}>
-            <a href="https://github.com/RahulQurbanov/Weather-prognoz"><img src="/img/Weather.png" className='h-[81%] w-[485px] rounded-lg opacity-20 hover:opacity-65 cursor-pointer transition-all translate-0.5 ease-in-out'/></a>
-            </div>
-        </div> */}
+<div className='flex flex-col lg:flex-row gap-6 lg:gap-[20px] justify-around mb-10 lg:mb-[45px]' ref={weatherRef}>
+  <div className='w-full lg:w-[45%] flex flex-col gap-4 lg:gap-[15px]'>
+    <h2 className='text-[#ccd6f6] text-2xl lg:text-[30px] font-bold'>Weather Projects :</h2>
+    <div className='w-full lg:w-[500px] bg-[#112240] text-gray-300 rounded-lg py-2 px-4 lg:px-5'>
+      This project was built using HTML, CSS, and JavaScript. It fetches real-time 7-day weather forecasts for any city worldwide using the OpenWeather API. The user can search for a city, and the app displays accurate and up-to-date weather information in a clean and user-friendly design.
+    </div>
+    <div className='flex gap-3 lg:gap-5 flex-wrap'>
+      <img src="/img/html.webp" className={`w-8 h-8 lg:w-[35px] lg:h-[35px] ${weatherInView ? 'animate__animated animate__rotateIn' : ''}`} alt="HTML" />
+      <img src="/img/css.svg" className={`w-8 h-8 lg:w-[35px] lg:h-[35px] ${weatherInView ? 'animate__animated animate__rotateIn' : ''}`} alt="CSS" />
+      <img src="/img/js.png" className={`w-8 h-8 lg:w-[35px] lg:h-[35px] ${weatherInView ? 'animate__animated animate__rotateIn' : ''}`} alt="JavaScript" />
+      <img src="/img/api.svg" className={`w-8 h-8 lg:w-[35px] lg:h-[35px] ${weatherInView ? 'animate__animated animate__rotateIn' : ''}`} alt="API" />
+    </div>
+    <div className='flex gap-2 items-end justify-end'>
+      <a href="https://github.com/RahulQurbanov/Weather-prognoz"><img src="/img/github1.svg" className="w-10 h-10 lg:w-[50px] lg:h-[50px] cursor-pointer opacity-45 hover:opacity-100" alt="GitHub" /></a>
+      <a href="https://rahulqurbanov.github.io/Weather-prognoz/"><img src="/img/live.svg" className="w-8 h-8 lg:w-[40px] lg:h-[40px] bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent animate-pulse cursor-pointer" alt="Live Demo" /></a>
+    </div>
+  </div>
+  <div className='w-full lg:w-[50%] flex justify-end'>
+    <a href="https://github.com/RahulQurbanov/Weather-prognoz"><img src="/img/Weather.png" className='w-full h-auto lg:h-[81%] max-w-[485px] rounded-lg opacity-20 hover:opacity-65 cursor-pointer transition-all duration-300 ease-in-out' alt="Weather Project" /></a>
+  </div>
+</div>
       </div>
     </div>
   );
