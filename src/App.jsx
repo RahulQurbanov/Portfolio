@@ -7,8 +7,8 @@ export default function App() {
   return (<>
     
    <Header/>
-   <Projects/>
-   <Footer/>
+   {/* <Projects/> */}
+   {/* <Footer/> */}
    </>
   )
 }
