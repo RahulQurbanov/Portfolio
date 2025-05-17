@@ -80,31 +80,31 @@ export default function Projects() {
             </div>
           </div>
         </div>
-        <div className='flex flex-col lg:flex-row gap-6 lg:gap-[20px] justify-around mb-16 lg:mb-[95px]' ref={investmentRef}>
-  <div className='w-full lg:w-[50%] flex flex-col gap-4 lg:gap-[15px]'> 
-    <h2 className='text-[#ccd6f6] text-2xl lg:text-[30px] font-bold'>Investment Calculator</h2> 
-    <div className='w-full lg:w-[500px] bg-[#112240] text-gray-300 rounded-lg py-2 px-4 lg:px-5'> 
+        <div className='flex flex-col lg:flex-row gap-6 lg:gap-[20px] justify-around mb-10 lg:mb-[95px]' ref={investmentRef}>
+  <div className='w-full lg:w-[50%] flex flex-col gap-4 lg:gap-[15px]'>
+    <h2 className='text-[#ccd6f6] text-2xl lg:text-[30px] font-bold'>Investment Calculator</h2>
+    <div className='w-full lg:w-[500px] bg-[#112240] text-gray-300 rounded-lg py-2 px-4 lg:px-5'>
       This project is an interactive Investment Calculator built with React and styled using Tailwind CSS.
       Users can input their desired investment amount, interest rate, and the number of months — the calculator will automatically compute the potential returns based on these values.
     </div>
-    <div className='flex gap-3 lg:gap-5 flex-wrap'> 
-      <img src="/img/html.webp" className={`w-8 h-8 lg:w-[35px] lg:h-[35px] ${investmentInView ? 'animate__animated animate__rotateIn' : ''}`} alt="HTML" /> 
-      <img src="/img/js.png" className={`w-8 h-8 lg:w-[35px] lg:h-[35px] ${investmentInView ? 'animate__animated animate__rotateIn' : ''}`} alt="JavaScript" /> 
-      <img src="/img/react.svg" className={`w-8 h-8 lg:w-[35px] lg:h-[35px] ${investmentInView ? 'animate__animated animate__rotateIn' : ''}`} alt="React" /> 
-      <img src="/img/vite.svg" className={`w-8 h-8 lg:w-[35px] lg:h-[35px] ${investmentInView ? 'animate__animated animate__rotateIn' : ''}`} alt="Vite" /> 
-      <img src="/img/tailwind.svg" className={`w-8 h-8 lg:w-[35px] lg:h-[35px] ${investmentInView ? 'animate__animated animate__rotateIn' : ''}`} alt="Tailwind CSS" /> 
-      <img src="/img/api.svg" className={`w-8 h-8 lg:w-[35px] lg:h-[35px] ${investmentInView ? 'animate__animated animate__rotateIn' : ''}`} alt="API" /> 
+    <div className='flex gap-3 lg:gap-5 flex-wrap'>
+      <img src="/img/html.webp" className={`w-8 h-8 lg:w-[35px] lg:h-[35px] ${investmentInView ? 'animate__animated animate__rotateIn' : ''}`} alt="HTML" />
+      <img src="/img/js.png" className={`w-8 h-8 lg:w-[35px] lg:h-[35px] ${investmentInView ? 'animate__animated animate__rotateIn' : ''}`} alt="JavaScript" />
+      <img src="/img/react.svg" className={`w-8 h-8 lg:w-[35px] lg:h-[35px] ${investmentInView ? 'animate__animated animate__rotateIn' : ''}`} alt="React" />
+      <img src="/img/vite.svg" className={`w-8 h-8 lg:w-[35px] lg:h-[35px] ${investmentInView ? 'animate__animated animate__rotateIn' : ''}`} alt="Vite" />
+      <img src="/img/tailwind.svg" className={`w-8 h-8 lg:w-[35px] lg:h-[35px] ${investmentInView ? 'animate__animated animate__rotateIn' : ''}`} alt="Tailwind CSS" />
+      <img src="/img/api.svg" className={`w-8 h-8 lg:w-[35px] lg:h-[35px] ${investmentInView ? 'animate__animated animate__rotateIn' : ''}`} alt="API" />
     </div>
     <div className='flex gap-2 items-end justify-end'>
-      <a href="https://github.com/RahulQurbanov/Investment-Calculator"><img src="/img/github1.svg" className="w-10 h-10 lg:w-[50px] lg:h-[50px] cursor-pointer opacity-45 hover:opacity-100" alt="GitHub" /></a> 
-      <a href="https://github.com/RahulQurbanov/Investment-Calculator"><img src="/img/live.svg" className="w-8 h-8 lg:w-[40px] lg:h-[40px] bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent animate-pulse cursor-pointer" alt="Live Demo" /></a> 
+      <a href="https://github.com/RahulQurbanov/Investment-Calculator"><img src="/img/github1.svg" className="w-10 h-10 lg:w-[50px] lg:h-[50px] cursor-pointer opacity-45 hover:opacity-100" alt="GitHub" /></a>
+      <a href="https://github.com/RahulQurbanov/Investment-Calculator"><img src="/img/live.svg" className="w-8 h-8 lg:w-[40px] lg:h-[40px] bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent animate-pulse cursor-pointer" alt="Live Demo" /></a>
     </div>
   </div>
   <div className='w-full lg:w-[50%] flex justify-end'>
-    <a href="https://github.com/RahulQurbanov/Investment-Calculator"><img src="/img/investment.png" className='w-full h-auto lg:h-[75%] max-w-[465px] rounded-xl opacity-20 hover:opacity-65 cursor-pointer transition-all duration-300 ease-in-out' alt="Investment Calculator Project" /></a>
+    <a href="https://github.com/RahulQurbanov/Investment-Calculator"><img src="/img/investment.png" className='w-full h-auto lg:h-[81%] max-w-[485px] rounded-lg opacity-20 hover:opacity-65 cursor-pointer transition-all duration-300 ease-in-out' alt="Investment Calculator Project" /></a> {/* h-[75%] -> h-[85%] olaraq dəyişdirildi */}
   </div>
-</div>
-<div className='flex flex-col lg:flex-row gap-6 lg:gap-[20px] justify-around mb-10 lg:mb-[45px]' ref={quizRef}> 
+        </div>
+        <div className='flex flex-col lg:flex-row gap-6 lg:gap-[20px] justify-around mb-10 lg:mb-[45px]' ref={quizRef}> 
   <div className='w-full lg:w-[50%]'> 
     <a href="https://github.com/RahulQurbanov/Quiz-App">
       <img
@@ -132,8 +132,8 @@ export default function Projects() {
       <a href="http://localhost:5173/"><img src="/img/live.svg" className="w-8 h-8 lg:w-[40px] lg:h-[40px] bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent animate-pulse cursor-pointer" alt="Live Demo" /></a> {/* ölçülər dəyişdirildi */}
     </div>
   </div>
-</div>
-<div className='flex flex-col lg:flex-row gap-6 lg:gap-[20px] justify-around mb-10 lg:mb-[95px]' ref={todoRef}> 
+        </div>
+        <div className='flex flex-col lg:flex-row gap-6 lg:gap-[20px] justify-around mb-10 lg:mb-[95px]' ref={todoRef}> 
   <div className='w-full lg:w-[45%] flex flex-col gap-4 lg:gap-[15px]'> 
     <h2 className='text-[#ccd6f6] text-2xl lg:text-[30px] font-bold'>TodoList App :</h2> 
     <div className='w-full lg:w-[500px] bg-[#112240] text-gray-300 rounded-lg py-2 px-4 lg:px-5'> 
@@ -153,8 +153,8 @@ export default function Projects() {
   <div className='w-full lg:w-[50%] flex justify-end'> 
     <a href="https://rahulqurbanov.github.io/Todo-List-/"><img src="/img/todo-react.png" className='w-full h-auto lg:h-[77%] mt-4 lg:mt-[15px] max-w-[465px] rounded-lg opacity-20 hover:opacity-65 cursor-pointer transition-all duration-300 ease-in-out' alt="Todo List App Project" /></a> {/* w-full və h-auto əlavə edildi, mt tənzimləndi */}
   </div>
-</div>
-<div className='flex flex-col lg:flex-row gap-6 lg:gap-[20px] justify-around mb-10 lg:mb-[45px]' ref={koolCodersRef}>
+        </div>
+        <div className='flex flex-col lg:flex-row gap-6 lg:gap-[20px] justify-around mb-10 lg:mb-[45px]' ref={koolCodersRef}>
   <div className='w-full lg:w-[50%]'>
     <a href="https://github.com/RahulQurbanov/Project-KoolCoders">
       <img
@@ -179,8 +179,8 @@ export default function Projects() {
       <a href="https://rahulqurbanov.github.io/Project-KoolCoders/"><img src="/img/live.svg" className="w-8 h-8 lg:w-[40px] lg:h-[40px] bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent animate-pulse cursor-pointer" alt="Live Demo" /></a>
     </div>
   </div>
-</div>
-<div className='flex flex-col lg:flex-row gap-6 lg:gap-[20px] justify-around mb-10 lg:mb-[45px]' ref={weatherRef}>
+        </div>
+        <div className='flex flex-col lg:flex-row gap-6 lg:gap-[20px] justify-around mb-10 lg:mb-[45px]' ref={weatherRef}>
   <div className='w-full lg:w-[45%] flex flex-col gap-4 lg:gap-[15px]'>
     <h2 className='text-[#ccd6f6] text-2xl lg:text-[30px] font-bold'>Weather Projects :</h2>
     <div className='w-full lg:w-[500px] bg-[#112240] text-gray-300 rounded-lg py-2 px-4 lg:px-5'>
@@ -200,7 +200,7 @@ export default function Projects() {
   <div className='w-full lg:w-[50%] flex justify-end'>
     <a href="https://github.com/RahulQurbanov/Weather-prognoz"><img src="/img/Weather.png" className='w-full h-auto lg:h-[81%] max-w-[485px] rounded-lg opacity-20 hover:opacity-65 cursor-pointer transition-all duration-300 ease-in-out' alt="Weather Project" /></a>
   </div>
-</div>
+        </div>
       </div>
     </div>
   );
